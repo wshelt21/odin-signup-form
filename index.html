@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Sign Up Form Project</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="image-header">
+        <div><h1>Leaf Guard Insurance</h1></div>
+        <p>
+          Photo by
+          <a
+            href="https://unsplash.com/@ohutcherson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Olivia Hutcherson</a
+          >
+          on
+          <a
+            href="https://unsplash.com/backgrounds/nature/leaf?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </p>
+      </section>
+      <section class="signup-form">
+        <div class="intro-text">
+          <p>
+            This is not a real online service! You known you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form">
+          <h2>Let's do this!</h2>
+          <form action="">
+            <div class="input-field">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" required />
+            </div>
+
+            <div class="input-field">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" required />
+            </div>
+
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+
+            <div class="input-field">
+              <label for="phone-number">Phone Number</label>
+              <input type="text" id="phone-number" />
+            </div>
+
+            <div class="input-field">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="error"
+                required
+                minlength="5"
+                maxlength="16"
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="confirm-pass">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-pass"
+                class="error"
+                required
+                minlength="5"
+                maxlength="16"
+              />
+            </div>
+
+            <div class="submit-btn">
+              <button type="submit">Create Account</button>
+              <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

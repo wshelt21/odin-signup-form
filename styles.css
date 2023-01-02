@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,.image-header{
+    height: 100vh;
+}
+
+body,button{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+main{
+    display: flex;
+}
+
+a{
+    color: rgb(41, 163, 106);
+}
+
+a:visited, a:active{
+    color: rgb(116, 207, 88);
+}
+
+
+
+.image-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width:30%;
+    background: url(images/olivia-hutcherson-EMP0_-qfva8-unsplash.jpg) no-repeat center center/ cover;
+}
+
+.image-header div{
+    margin-top: 12rem;
+    min-height: 150px;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.397);
+
+}
+
+.image-header h1{
+    text-align: center;
+    color:#7ed135;
+    font-size: 48px;
+    margin-top: 1.5rem;
+}
+
+.image-header p{
+    color: #fff
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 14rem 0 5rem;
+}
+
+.intro-text{
+    margin-bottom: 4rem;
+}
+
+.intro-text p{
+    font-size: 1.5rem;
+}
+
+.intro-text p:last-child{
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 4rem;
+}
+
+.form{
+    width: 600px;
+    margin-bottom: 2rem;
+    
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 1.5rem;
+    width: 250px;
+    border: .5px solid #cccccc;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.input-field input:focus-visible{
+    outline: none;
+    border-color:  #7ed135;
+}
+
+.input-field input:invalid{
+    border-color:  #ec4135;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    background-color: #7ed135;
+    border: none;
+    margin-bottom: 1rem;
+}
